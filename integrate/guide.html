@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <title>WebIM 集成引导</title>
 </head>
-<link rel="stylesheet" href="res/integrate.css">
+<link rel="stylesheet" href="integrate.css">
 <body>
 
 <div class="wrap">
@@ -23,7 +23,7 @@
                     <li>3.系统消息，通知等</li>
                 </ol>
 
-                <p>搭建应用服务器文档: <a href="https://github.com/sealtalk/sealtalk-server">https://github.com/sealtalk/sealtalk-server</a></p>
+				<p>搭建应用服务器文档: <a href="https://github.com/sealtalk/sealtalk-server">https://github.com/sealtalk/sealtalk-server</a></p>搭建应用服务器: <a href="https://github.com/sealtalk/sealtalk-server">https://github.com/sealtalk/sealtalk-server</a>
 				<p>Server 开发指南文档: <a href="http://www.rongcloud.cn/docs/server.html">http://www.rongcloud.cn/docs/server.html</a></p>
             </div>
         </div>
@@ -75,12 +75,13 @@
 				<ul>
                     <li>1.应用服务器处理用户的注册及校验，注册成功后，通过应用服务器访问融云服务器获取用户 token 并存储在应用服务器</li>
                     <li>2.用户成功登录后，通过应用服务器返回 token</li>
-                    <li>3.端上用户使用 token 连接融云服务器</li>
+                    <li>3.端上用户使用 token 链接融云服务器</li>
                     <li>4.用户的在线状态</li>
 				</ul>
+
 				<p>获取 token 文档: <a href="http://www.rongcloud.cn/docs/server.html#user_get_token">http://www.rongcloud.cn/docs/server.html#user_get_token</a></p>
 				<p>使用 token 连接融云服务器文档: <a href="http://www.rongcloud.cn/docs/web.html#connect">http://www.rongcloud.cn/docs/web.html#connect</a></p>
-				<p><a href="./integrate-demo/login/login.html">登录 demo</a></p>
+				<p><a href="./login/login.html">登录 demo</a></p>
 
 				<div class="helps">
 					<h3>常见问题: </h3>
@@ -105,7 +106,7 @@
 
 				<p>开发文档: <a href="http://www.rongcloud.cn/docs/server.html">http://www.rongcloud.cn/docs/server.html</a></p>
 				<p>应用服务器 node 版代码: <a href="https://github.com/sealtalk/sealtalk-server">https://github.com/sealtalk/sealtalk-server</a></p>
-				<p><a href="integrate-demo/server-api.md">接口文档</a></p>
+				<p><a href="./server-api.md">接口文档</a></p>
 
 
 				<div class="helps">
@@ -122,14 +123,14 @@
 			<div class="content">
 				文档: <a href="http://www.rongcloud.cn/docs/web.html#conversation">http://www.rongcloud.cn/docs/web.html#conversation</a> （请注意一定要开启 单群聊消息云端存储功能
 				<a href="http://www.rongcloud.cn/pricing/#pay">收费详情</a>） <br>
-				参考: <a href="integrate-demo/conversation-list/conversation-list.html">conversation-list.html</a>
+				参考: <a href="./conversation-list/conversation-list.html">conversation-list.html</a>
 				<p>
-					会话列表的数据分两部分: <br>一部分是会话列表（包含最后一条消息），SDK 提供了 getConversationList 方法获取数据； <br>
+					会话列表的数据分两部分，<br>一部分是会话列表（包含最后一条消息），SDK 提供了 getConversationList 方法获取数据； <br>
 					另外一部分是会话对象（联系人，群等）的基本信息，需要应用服务器提供接口
 				</p>
 				<br>
 				<p>1.用户登录成功后，获取 appKey，token，连接云端</p>
-				<p>模拟的用户及群组信息数据: <a href="integrate-demo/conversation-list/conversation-list.json">conversation-list.json</a> 中的 "userInfos,groupInfos"</p>
+				<p>模拟的用户及群组信息数据 : <a href="./conversation-list/conversation-list.json">conversation-list.json</a> 中的 "userInfos,groupInfos"</p>
 				<p>调用 init() 初始化，连接云端</p>
 				<pre>
 var userInfo = {
@@ -147,8 +148,8 @@ var callbacks = {
 init(userInfo, callbacks);
 </pre>
 				<p>2.获取会话列表，处理会话列表（拼接应用服务器提供的用户或群组信息），渲染会话列表</p>
-				<p>模拟的会话列表数据: <a href="integrate-demo/conversation-list/conversation-list.json">conversation-list.json</a> 中的 "conversation"</p>
-				<p>拼接后会话列表数据: <a href="integrate-demo/conversation-list/conversation-list.json">conversation-list.json</a> 中的 "translate-conversation"</p>
+				<p>模拟的会话列表数据: <a href="./conversation-list/conversation-list.json">conversation-list.json</a> 中的 "conversation"</p>
+				<p>拼接后会话列表数据: <a href="./conversation-list/conversation-list.json">conversation-list.json</a> 中的 "translate-conversation"</p>
 <pre>
 //同步会话列表
 //@param  {ResultCallback} callback 返回值，参数回调
@@ -191,11 +192,10 @@ instance.removeConversation(conversationType,targetId,{
 				<p>聊天窗口由两部分组成，历史消息的列表以及发送消息的窗口，SDK 提供了两个对应的方法，getHistroyMessage，sendMessage，消息旁的用户信息与会话列表处理方式一致</p>
 				<p>获取历史消息文档: <a href="http://www.rongcloud.cn/docs/web.html#history_message">http://www.rongcloud.cn/docs/web.html#history_message</a></p>
 				<p>发送消息文档: <a href="http://www.rongcloud.cn/docs/web_api_demo.html#message_send">http://www.rongcloud.cn/docs/web_api_demo.html#message_send</a></p>
-				<p>集成 demo: <a href="integrate-demo/chat/chat.html">chat.html</a></p>
+				<p>集成 demo: <a href="./chat/chat.html">chat.html</a></p>
 				<br>
-				<p>1.历史消息列表（请注意一定要开启 单群聊消息云端存储功能
-					<a href="http://www.rongcloud.cn/pricing/#pay">收费详情</a>）</p>
-				<p>模拟的历史消息数据: <a href="integrate-demo/chat/chat.json">chat.json</a> 中的 "historyMessage"</p>
+				<p>1.历史消息列表（请注意一定要开启 单群聊消息云端存储功能 <a href="http://www.rongcloud.cn/pricing/#pay">收费详情</a>）</p>
+				<p>模拟的历史消息数据: <a href="./chat/chat.json">chat.json</a> 中的 "historyMessage"</p>
 <pre>
 /*
  * getHistoryMessages 拉取本地历史消息记录，如果本地没有历史消息，会自动从融云服务器拉去历史消息。
@@ -239,16 +239,16 @@ instance.sendMessage(conversationType, targetId, msg, {
 			<div class="content">
 				<p>图片消息，文件消息，自定义消息</p>
 				<p>消息接口文档: <a href="http://www.rongcloud.cn/docs/web_api_demo.html#message">http://www.rongcloud.cn/docs/web_api_demo.html#message</a></p>
-				<p>集成 demo: <a href="integrate-demo/message/message.html">message.html</a></p>
+				<p>集成 demo: <a href="./message/message.html">message.html</a></p>
 
 				<div class="steps">
 					<h2>1.图片消息</h2>
 					<div class="content">
-						<p>模拟接收图片消息的数据: <a href="integrate-demo/message/message.json">message.json</a> 中的 "messageType" 为 "ImageMessage"</p>
+						<p>模拟接收图片消息的数据: <a href="./message/message.json">message.json</a> 中的 "messageType" 为 "ImageMessage"</p>
 						<p>模拟发送服务器图片: <a href="//developer.rongcloud.cn">开发者站点</a> => API 调试 => 发送单聊消息 =>   "objectName" == "RC:ImgMsg"</p>
 						<p>1.上传图片,</p>
 						<p>上传插件文档: <a href="http://www.rongcloud.cn/docs/web.html#upload_widget">http://www.rongcloud.cn/docs/web.html#upload_widget</a></p>
-						<p>图片上传插件以七牛云为例，依次引入 <a href="integrate-demo/message/upload/qiniu.js">qiniu.js</a>，<a href="integrate-demo/message/upload/upload.js">upload.js</a>，<a href="integrate-demo/message/upload/uploadInit.js">uploadInit.js</a>，为上传按钮添加监听事件，<a href="integrate-demo/message/message.js">message.js</a> 中 watchUpload 方法</p>
+						<p>图片上传插件以七牛云为例，依次引入 <a href="./message/upload/qiniu.js">qiniu.js</a>，<a href="./message/upload/upload.js">upload.js</a>，<a href="./message/upload/uploadInit.js">uploadInit.js</a>，为上传按钮添加监听事件，<a href="./message/message.js">message.js</a> 中 watchUpload 方法</p>
 						<p>2.上传图片后，生成图片消息 createMessage</p>
 						<p>3.调用 sendMessage 发送图片消息</p>
 						<pre>
@@ -266,16 +266,15 @@ instance.sendMessage(conversationType, targetId, msg, {
 				<div class="steps">
 					<h2>2.文件消息</h2>
 					<div class="content">
-						<p>模拟接收文件消息的数据: <a href="integrate-demo/message/message.json">message.json</a> 中的 "messageType" 为 "FileMessage"</p>
+						<p>模拟接收文件消息的数据: <a href="./message/message.json">message.json</a> 中的 "messageType" 为 "FileMessage"</p>
 						<p>实现方法同图片消息</p>
 					</div>
 				</div>
 
 				<div class="steps">
 					<h2>3.自定义消息</h2>
-
 					<div class="content">
-						<p>文档: <a href="http://www.rongcloud.cn/docs/web.html#customize_message">http://www.rongcloud.cn/docs/web.html#customize_message</a></p>
+						<p>自定义消息文档: <a href="http://www.rongcloud.cn/docs/web.html#customize_message">http://www.rongcloud.cn/docs/web.html#customize_message</a></p>
 						<p>1.定义消息类型</p>
 						<pre>
 var messageName = "PersonMessage"; // 消息名称。
@@ -339,7 +338,7 @@ emojiContent= reg.exec(emojiItem)[1];
 							<li>3.用户可以在第二步的添加结果里进行搜索和关注操作，关注后可以通过消息监听接受公众号的推送，用户也可以给公众号留言，具体细节参考页面里的示例代码和注释。</li>
 						</ol>
 						<p>调试 demo: <a href="https://rongcloud.github.io/websdk-demo/api-test.html">https://rongcloud.github.io/websdk-demo/api-test.html</a></p>
-						<p>集成 demo: <a href="integrate-demo/public/public.html">public.html</a></p>
+						<p>集成 demo: <a href="./public/public.html">public.html</a></p>
 					</div>
 				</div>
 
@@ -348,12 +347,12 @@ emojiContent= reg.exec(emojiItem)[1];
 					<div class="content">
 						<p>页面分配</p>
 						<ol>
-							<li>0.公众号模板主页 <a href="integrate-demo/public/public.html">public.html</a></li>
-							<li>1.公众号列表页 <a href="integrate-demo/public/template/public-list.html">public-list.html</a></li>
-							<li>2.公众号搜索页 <a href="integrate-demo/public/template/public-search.html">public-search.html</a></li>
-							<li>3.公众号详情页 <a href="integrate-demo/public/template/public-info.html">public-info.html</a></li>
-							<li>4.公众号聊天页 <a href="integrate-demo/public/template/public-chat.html">public-chat.html</a></li>
-							<li>5.公众号推送文章页 <a href="integrate-demo/public/template/public-article.html">public-article.html</a></li>
+							<li>0.公众号模板主页 <a href="./public/public.html">public.html</a></li>
+							<li>1.公众号列表页 <a href="./public/template/public-list.html">public-list.html</a></li>
+							<li>2.公众号搜索页 <a href="./public/template/public-search.html">public-search.html</a></li>
+							<li>3.公众号详情页 <a href="./public/template/public-info.html">public-info.html</a></li>
+							<li>4.公众号聊天页 <a href="./public/template/public-chat.html">public-chat.html</a></li>
+							<li>5.公众号推送文章页 <a href="./public/template/public-article.html">public-article.html</a></li>
 						</ol>
 
 					</div>
@@ -362,7 +361,7 @@ emojiContent= reg.exec(emojiItem)[1];
 				<div class="steps">
 					<h2>3.引入SDK，并完成初始化、连接云端</h2>
 					<div class="content">
-						<p>初始化参考: <a href="integrate-demo/init.js">init.js</a></p>
+						<p>初始化参考: <a href="./init.js">init.js</a></p>
 <pre>
 var userInfo = {
 	appKey: "",
@@ -384,9 +383,9 @@ init(userInfo, callbacks);
 				<div class="steps">
 					<h2>4.公众号列表页</h2>
 					<div class="content">
-						<p>html: <a href="integrate-demo/public/template/public-list.html">public-list.html</a></p>
-						<p>js: <a href="integrate-demo/public/js/public-list.js">public-list.js</a></p>
-						<p>公众号列表数据模型 <a href="integrate-demo/public/public-mock-data.json">public-mock-data.json</a> 中的 "publicList"</p>
+						<p>html: <a href="./public/template/public-list.html">public-list.html</a></p>
+						<p>js: <a href="./public/js/public-list.js">public-list.js</a></p>
+						<p>公众号列表数据模型 <a href="./public/public-mock-data.json">public-mock-data.json</a> 中的 "publicList"</p>
 						<p>变量解释: </p>
 						<ol>
 							<li>conversationType : 7, 私有云里只有应用公众服务（MC） 8, 公有公众服务（MP）</li>
@@ -412,9 +411,9 @@ RongIMClient.getInstance().getPublicServiceList({
 				<div class="steps">
 					<h2>5.公众号搜索页</h2>
 					<div class="content">
-						<p>html: <a href="integrate-demo/public/template/public-search.html">public-search.html</a></p>
-						<p>js: <a href="integrate-demo/public/js/public-search.js">public-search.js</a></p>
-						<p>公众号搜索数据模型 <a href="integrate-demo/public/public-mock-data.json">public-mock-data.json</a> 中的 "searchList"</p>
+						<p>html: <a href="./public/template/public-search.html">public-search.html</a></p>
+						<p>js: <a href="./public/js/public-search.js">public-search.js</a></p>
+						<p>公众号搜索数据模型 <a href="./public/public-mock-data.json">public-mock-data.json</a> 中的 "searchList"</p>
 						<pre>
 //根据用户输入关键字搜索未关注公众号
 var keywords = this.stat.searchVal;
@@ -437,9 +436,9 @@ RongIMClient.getInstance().searchPublicService(searchType, keywords, {
 				<div class="steps">
 					<h2>6.公众号详情页</h2>
 					<div class="content">
-						<p>html: <a href="integrate-demo/public/template/public-info.html">public-info.html</a></p>
-						<p>js: <a href="integrate-demo/public/js/public-info.js">public-info.js</a></p>
-						<p>公众号详情数据模型 <a href="integrate-demo/public/public-mock-data.json">public-mock-data.json</a> "searchList" 中的对象</p>
+						<p>html: <a href="./public/template/public-info.html">public-info.html</a></p>
+						<p>js: <a href="./public/js/public-info.js">public-info.js</a></p>
+						<p>公众号详情数据模型 <a href="./public/public-mock-data.json">public-mock-data.json</a> "searchList" 中的对象</p>
 						<pre>
 //订阅公众号
 var publicServiceType = RongIMLib.ConversationType.PUBLIC_SERVICE;
@@ -462,10 +461,10 @@ RongIMClient.getInstance().unsubscribePublicService(publicServiceType, publicSer
 				<div class="steps">
 					<h2>7.公众号聊天页</h2>
 					<div class="content">
-						<p>html: <a href="integrate-demo/public/template/public-chat.html">public-chat.html</a></p>
-						<p>js: <a href="integrate-demo/public/js/public-chat.js">public-chat.js</a></p>
+						<p>html: <a href="./public/template/public-chat.html">public-chat.html</a></p>
+						<p>js: <a href="./public/js/public-chat.js">public-chat.js</a></p>
 						<p>公众号回复用户消息在 <a href="http://public.rongcloud.cn">公众平台</a> => 用户回复</p>
-						<p>公众号聊天消息数据模型 <a href="integrate-demo/public/public-mock-data.json">public-mock-data.json</a> "msgList" 中 "messageType" = "TextMessage" 为文本消息，"messageType" = "PublicServiceMultiRichContentMessage"为公众号推送多图文消息</p>
+						<p>公众号聊天消息数据模型 <a href="./public/public-mock-data.json">public-mock-data.json</a> "msgList" 中 "messageType" = "TextMessage" 为文本消息，"messageType" = "PublicServiceMultiRichContentMessage"为公众号推送多图文消息</p>
 						<p>变量解释: </p>
 						<ol>
 							<li>messageDirection : 1, 发送消息方 2, 接收消息方</li>
@@ -492,10 +491,10 @@ RongIMClient.getInstance().sendMessage(conversationtype, publicServiceId, msg, {
 				<div class="steps">
 					<h2>8.公众号推送文章页</h2>
 					<div class="content">
-						<p>html: <a href="integrate-demo/public/template/public-article.html">public-article.html</a></p>
-						<p>js: <a href="integrate-demo/public/js/public-article.js">public-article.js</a></p>
+						<p>html: <a href="./public/template/public-article.html">public-article.html</a></p>
+						<p>js: <a href="./public/js/public-article.js">public-article.js</a></p>
 						<p>公众号向用户推送文章在 <a href="http://public.rongcloud.cn">公众平台</a> => 消息推送</p>
-						<p>公众号推送文章地址为 <a href="integrate-demo/public/public-mock-data.json">public-mock-data.json</a> "msgList" 中 "messageType" = "PublicServiceMultiRichContentMessage" 公众号推送多图文消息 articles.url</p>
+						<p>公众号推送文章地址为 <a href="./public/public-mock-data.json">public-mock-data.json</a> "msgList" 中 "messageType" = "PublicServiceMultiRichContentMessage" 公众号推送多图文消息 articles.url</p>
 						<pre>
 //文章内容嵌套在 iframe 中
 &lt;iframe :src="stat.articleUrl">&lt;/iframe>

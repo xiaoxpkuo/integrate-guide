@@ -2,449 +2,529 @@
 "CodeKitInfo": "This is a CodeKit 2.x project configuration file. It is designed to sync project settings across multiple machines. MODIFYING THE CONTENTS OF THIS FILE IS A POOR LIFE DECISION. If you do so, you will likely cause CodeKit to crash. This file is not useful unless accompanied by the project that created it in CodeKit 2. This file is not backwards-compatible with CodeKit 1.x. For more information, see: http:\/\/incident57.com\/codekit",
 "creatorBuild": "19142",
 "files": {
-	"\/integrate-demo\/chat\/chat-guide.html": {
+	"\/api-test.html": {
 		"fileType": 8192,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/integrate-demo\/chat\/chat-guide.html",
+		"inputAbbreviatedPath": "\/api-test.html",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/integrate-demo\/chat\/chat.css": {
-		"fileType": 16,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/integrate-demo\/chat\/chat.css",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/integrate-demo\/chat\/chat.html": {
+	"\/connect-check.html": {
 		"fileType": 8192,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/integrate-demo\/chat\/chat.html",
+		"inputAbbreviatedPath": "\/connect-check.html",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/integrate-demo\/chat\/chat.js": {
+	"\/init.js": {
 		"fileType": 64,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/integrate-demo\/chat\/chat.js",
-		"outputAbbreviatedPath": "\/integrate-demo\/chat\/min\/chat-min.js",
+		"inputAbbreviatedPath": "\/init.js",
+		"outputAbbreviatedPath": "\/min\/init-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
-	"\/integrate-demo\/chat\/chat.json": {
+	"\/integrate\/chat\/chat-guide.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/integrate\/chat\/chat-guide.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/integrate\/chat\/chat.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/integrate\/chat\/chat.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/integrate\/chat\/chat.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/integrate\/chat\/chat.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/integrate\/chat\/chat.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/integrate\/chat\/chat.js",
+		"outputAbbreviatedPath": "\/integrate\/chat\/min\/chat-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/integrate\/chat\/chat.json": {
 		"fileType": 524288,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/integrate-demo\/chat\/chat.json",
+		"inputAbbreviatedPath": "\/integrate\/chat\/chat.json",
 		"orderOutput": 0,
-		"outputAbbreviatedPath": "\/integrate-demo\/chat\/chat-min.json",
+		"outputAbbreviatedPath": "\/integrate\/chat\/chat-min.json",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1
 		},
-	"\/integrate-demo\/conversation-list\/conversation-list-guide.html": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/integrate-demo\/conversation-list\/conversation-list-guide.html",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/integrate-demo\/conversation-list\/conversation-list.css": {
-		"fileType": 16,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/integrate-demo\/conversation-list\/conversation-list.css",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/integrate-demo\/conversation-list\/conversation-list.html": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/integrate-demo\/conversation-list\/conversation-list.html",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/integrate-demo\/conversation-list\/conversation-list.js": {
+	"\/integrate\/chat\/min\/chat-min.js": {
 		"fileType": 64,
-		"ignore": 0,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/integrate-demo\/conversation-list\/conversation-list.js",
-		"outputAbbreviatedPath": "\/integrate-demo\/conversation-list\/min\/conversation-list-min.js",
+		"inputAbbreviatedPath": "\/integrate\/chat\/min\/chat-min.js",
+		"outputAbbreviatedPath": "\/integrate\/chat\/min\/min\/chat-min-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
-	"\/integrate-demo\/conversation-list\/conversation-list.json": {
+	"\/integrate\/conversation-list\/conversation-list-guide.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/integrate\/conversation-list\/conversation-list-guide.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/integrate\/conversation-list\/conversation-list.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/integrate\/conversation-list\/conversation-list.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/integrate\/conversation-list\/conversation-list.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/integrate\/conversation-list\/conversation-list.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/integrate\/conversation-list\/conversation-list.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/integrate\/conversation-list\/conversation-list.js",
+		"outputAbbreviatedPath": "\/integrate\/conversation-list\/min\/conversation-list-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/integrate\/conversation-list\/conversation-list.json": {
 		"fileType": 524288,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/integrate-demo\/conversation-list\/conversation-list.json",
+		"inputAbbreviatedPath": "\/integrate\/conversation-list\/conversation-list.json",
 		"orderOutput": 0,
-		"outputAbbreviatedPath": "\/integrate-demo\/conversation-list\/conversation-list-min.json",
+		"outputAbbreviatedPath": "\/integrate\/conversation-list\/conversation-list-min.json",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1
 		},
-	"\/integrate-demo\/init.html": {
+	"\/integrate\/conversation-list\/min\/conversation-list-min.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/integrate\/conversation-list\/min\/conversation-list-min.js",
+		"outputAbbreviatedPath": "\/integrate\/conversation-list\/min\/min\/conversation-list-min-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/integrate\/guide.html": {
 		"fileType": 8192,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/integrate-demo\/init.html",
+		"inputAbbreviatedPath": "\/integrate\/guide.html",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/integrate-demo\/init.js": {
+	"\/integrate\/init.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/integrate\/init.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/integrate\/init.js": {
 		"fileType": 64,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/integrate-demo\/init.js",
-		"outputAbbreviatedPath": "\/integrate-demo\/min\/init-min.js",
+		"inputAbbreviatedPath": "\/integrate\/init.js",
+		"outputAbbreviatedPath": "\/integrate\/min\/init-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
-	"\/integrate-demo\/lib\/jquery-3.1.1.js": {
-		"fileType": 64,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/integrate-demo\/lib\/jquery-3.1.1.js",
-		"outputAbbreviatedPath": "\/integrate-demo\/lib\/min\/jquery-3.1.1-min.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
-		},
-	"\/integrate-demo\/lib\/RongIMLib-2.2.5.js": {
-		"fileType": 64,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/integrate-demo\/lib\/RongIMLib-2.2.5.js",
-		"outputAbbreviatedPath": "\/integrate-demo\/lib\/min\/RongIMLib-2.2.5-min.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
-		},
-	"\/integrate-demo\/lib\/vue-2.1.4.js": {
-		"fileType": 64,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/integrate-demo\/lib\/vue-2.1.4.js",
-		"outputAbbreviatedPath": "\/integrate-demo\/lib\/min\/vue-2.1.4-min.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
-		},
-	"\/integrate-demo\/login\/login.css": {
+	"\/integrate\/integrate.css": {
 		"fileType": 16,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/integrate-demo\/login\/login.css",
+		"inputAbbreviatedPath": "\/integrate\/integrate.css",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/integrate-demo\/login\/login.html": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/integrate-demo\/login\/login.html",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/integrate-demo\/login\/login.js": {
+	"\/integrate\/lib\/jquery-3.1.1.js": {
 		"fileType": 64,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/integrate-demo\/login\/login.js",
-		"outputAbbreviatedPath": "\/integrate-demo\/login\/min\/login-min.js",
+		"inputAbbreviatedPath": "\/integrate\/lib\/jquery-3.1.1.js",
+		"outputAbbreviatedPath": "\/integrate\/lib\/min\/jquery-3.1.1-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
-	"\/integrate-demo\/login\/login.json": {
+	"\/integrate\/lib\/RongIMLib-2.2.5.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/integrate\/lib\/RongIMLib-2.2.5.js",
+		"outputAbbreviatedPath": "\/integrate\/lib\/min\/RongIMLib-2.2.5-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/integrate\/lib\/vue-2.1.4.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/integrate\/lib\/vue-2.1.4.js",
+		"outputAbbreviatedPath": "\/integrate\/lib\/min\/vue-2.1.4-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/integrate\/login\/login.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/integrate\/login\/login.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/integrate\/login\/login.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/integrate\/login\/login.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/integrate\/login\/login.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/integrate\/login\/login.js",
+		"outputAbbreviatedPath": "\/integrate\/login\/min\/login-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/integrate\/login\/login.json": {
 		"fileType": 524288,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/integrate-demo\/login\/login.json",
+		"inputAbbreviatedPath": "\/integrate\/login\/login.json",
 		"orderOutput": 0,
-		"outputAbbreviatedPath": "\/integrate-demo\/login\/login-min.json",
+		"outputAbbreviatedPath": "\/integrate\/login\/login-min.json",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1
 		},
-	"\/integrate-demo\/message\/message-guide.html": {
+	"\/integrate\/message\/message-guide.html": {
 		"fileType": 8192,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/integrate-demo\/message\/message-guide.html",
+		"inputAbbreviatedPath": "\/integrate\/message\/message-guide.html",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/integrate-demo\/message\/message.css": {
+	"\/integrate\/message\/message.css": {
 		"fileType": 16,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/integrate-demo\/message\/message.css",
+		"inputAbbreviatedPath": "\/integrate\/message\/message.css",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/integrate-demo\/message\/message.html": {
+	"\/integrate\/message\/message.html": {
 		"fileType": 8192,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/integrate-demo\/message\/message.html",
+		"inputAbbreviatedPath": "\/integrate\/message\/message.html",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/integrate-demo\/message\/message.js": {
+	"\/integrate\/message\/message.js": {
 		"fileType": 64,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/integrate-demo\/message\/message.js",
-		"outputAbbreviatedPath": "\/integrate-demo\/message\/min\/message-min.js",
+		"inputAbbreviatedPath": "\/integrate\/message\/message.js",
+		"outputAbbreviatedPath": "\/integrate\/message\/min\/message-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
-	"\/integrate-demo\/message\/message.json": {
+	"\/integrate\/message\/message.json": {
 		"fileType": 524288,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/integrate-demo\/message\/message.json",
+		"inputAbbreviatedPath": "\/integrate\/message\/message.json",
 		"orderOutput": 0,
-		"outputAbbreviatedPath": "\/integrate-demo\/message\/message-min.json",
+		"outputAbbreviatedPath": "\/integrate\/message\/message-min.json",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1
 		},
-	"\/integrate-demo\/message\/upload\/qiniu.js": {
+	"\/integrate\/message\/min\/message-min.js": {
 		"fileType": 64,
-		"ignore": 0,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/integrate-demo\/message\/upload\/qiniu.js",
-		"outputAbbreviatedPath": "\/integrate-demo\/message\/upload\/min\/qiniu-min.js",
+		"inputAbbreviatedPath": "\/integrate\/message\/min\/message-min.js",
+		"outputAbbreviatedPath": "\/integrate\/message\/min\/min\/message-min-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
-	"\/integrate-demo\/message\/upload\/upload.js": {
+	"\/integrate\/message\/upload\/qiniu.js": {
 		"fileType": 64,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/integrate-demo\/message\/upload\/upload.js",
-		"outputAbbreviatedPath": "\/integrate-demo\/message\/upload\/min\/upload-min.js",
+		"inputAbbreviatedPath": "\/integrate\/message\/upload\/qiniu.js",
+		"outputAbbreviatedPath": "\/integrate\/message\/upload\/min\/qiniu-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
-	"\/integrate-demo\/message\/upload\/uploadInit.js": {
+	"\/integrate\/message\/upload\/upload.js": {
 		"fileType": 64,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/integrate-demo\/message\/upload\/uploadInit.js",
-		"outputAbbreviatedPath": "\/integrate-demo\/message\/upload\/min\/uploadInit-min.js",
+		"inputAbbreviatedPath": "\/integrate\/message\/upload\/upload.js",
+		"outputAbbreviatedPath": "\/integrate\/message\/upload\/min\/upload-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
-	"\/integrate-demo\/public\/images\/public-icons.png": {
+	"\/integrate\/message\/upload\/uploadInit.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/integrate\/message\/upload\/uploadInit.js",
+		"outputAbbreviatedPath": "\/integrate\/message\/upload\/min\/uploadInit-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/integrate\/public\/images\/public-icons.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 21881,
-		"inputAbbreviatedPath": "\/integrate-demo\/public\/images\/public-icons.png",
-		"outputAbbreviatedPath": "\/integrate-demo\/public\/images\/public-icons.png",
+		"inputAbbreviatedPath": "\/integrate\/public\/images\/public-icons.png",
+		"outputAbbreviatedPath": "\/integrate\/public\/images\/public-icons.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/integrate-demo\/public\/js\/public-article.js": {
+	"\/integrate\/public\/js\/public-article.js": {
 		"fileType": 64,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/integrate-demo\/public\/js\/public-article.js",
-		"outputAbbreviatedPath": "\/integrate-demo\/public\/js\/min\/public-article-min.js",
+		"inputAbbreviatedPath": "\/integrate\/public\/js\/public-article.js",
+		"outputAbbreviatedPath": "\/integrate\/public\/js\/min\/public-article-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
-	"\/integrate-demo\/public\/js\/public-chat.js": {
+	"\/integrate\/public\/js\/public-chat.js": {
 		"fileType": 64,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/integrate-demo\/public\/js\/public-chat.js",
-		"outputAbbreviatedPath": "\/integrate-demo\/public\/js\/min\/public-chat-min.js",
+		"inputAbbreviatedPath": "\/integrate\/public\/js\/public-chat.js",
+		"outputAbbreviatedPath": "\/integrate\/public\/js\/min\/public-chat-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
-	"\/integrate-demo\/public\/js\/public-common.js": {
+	"\/integrate\/public\/js\/public-common.js": {
 		"fileType": 64,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/integrate-demo\/public\/js\/public-common.js",
-		"outputAbbreviatedPath": "\/integrate-demo\/public\/js\/min\/public-common-min.js",
+		"inputAbbreviatedPath": "\/integrate\/public\/js\/public-common.js",
+		"outputAbbreviatedPath": "\/integrate\/public\/js\/min\/public-common-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
-	"\/integrate-demo\/public\/js\/public-info.js": {
+	"\/integrate\/public\/js\/public-info.js": {
 		"fileType": 64,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/integrate-demo\/public\/js\/public-info.js",
-		"outputAbbreviatedPath": "\/integrate-demo\/public\/js\/min\/public-info-min.js",
+		"inputAbbreviatedPath": "\/integrate\/public\/js\/public-info.js",
+		"outputAbbreviatedPath": "\/integrate\/public\/js\/min\/public-info-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
-	"\/integrate-demo\/public\/js\/public-list.js": {
+	"\/integrate\/public\/js\/public-list.js": {
 		"fileType": 64,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/integrate-demo\/public\/js\/public-list.js",
-		"outputAbbreviatedPath": "\/integrate-demo\/public\/js\/min\/public-list-min.js",
+		"inputAbbreviatedPath": "\/integrate\/public\/js\/public-list.js",
+		"outputAbbreviatedPath": "\/integrate\/public\/js\/min\/public-list-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
-	"\/integrate-demo\/public\/js\/public-search.js": {
+	"\/integrate\/public\/js\/public-search.js": {
 		"fileType": 64,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/integrate-demo\/public\/js\/public-search.js",
-		"outputAbbreviatedPath": "\/integrate-demo\/public\/js\/min\/public-search-min.js",
+		"inputAbbreviatedPath": "\/integrate\/public\/js\/public-search.js",
+		"outputAbbreviatedPath": "\/integrate\/public\/js\/min\/public-search-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
-	"\/integrate-demo\/public\/public-guide.html": {
+	"\/integrate\/public\/public-guide.html": {
 		"fileType": 8192,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/integrate-demo\/public\/public-guide.html",
+		"inputAbbreviatedPath": "\/integrate\/public\/public-guide.html",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/integrate-demo\/public\/public-mock-data.json": {
+	"\/integrate\/public\/public-mock-data.json": {
 		"fileType": 524288,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/integrate-demo\/public\/public-mock-data.json",
+		"inputAbbreviatedPath": "\/integrate\/public\/public-mock-data.json",
 		"orderOutput": 0,
-		"outputAbbreviatedPath": "\/integrate-demo\/public\/public-mock-data-min.json",
+		"outputAbbreviatedPath": "\/integrate\/public\/public-mock-data-min.json",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1
 		},
-	"\/integrate-demo\/public\/public.css": {
+	"\/integrate\/public\/public.css": {
 		"fileType": 16,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/integrate-demo\/public\/public.css",
+		"inputAbbreviatedPath": "\/integrate\/public\/public.css",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/integrate-demo\/public\/public.html": {
+	"\/integrate\/public\/public.html": {
 		"fileType": 8192,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/integrate-demo\/public\/public.html",
+		"inputAbbreviatedPath": "\/integrate\/public\/public.html",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/integrate-demo\/public\/template\/public-article.html": {
+	"\/integrate\/public\/template\/public-article.html": {
 		"fileType": 8192,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/integrate-demo\/public\/template\/public-article.html",
+		"inputAbbreviatedPath": "\/integrate\/public\/template\/public-article.html",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/integrate-demo\/public\/template\/public-chat.html": {
+	"\/integrate\/public\/template\/public-chat.html": {
 		"fileType": 8192,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/integrate-demo\/public\/template\/public-chat.html",
+		"inputAbbreviatedPath": "\/integrate\/public\/template\/public-chat.html",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/integrate-demo\/public\/template\/public-info.html": {
+	"\/integrate\/public\/template\/public-info.html": {
 		"fileType": 8192,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/integrate-demo\/public\/template\/public-info.html",
+		"inputAbbreviatedPath": "\/integrate\/public\/template\/public-info.html",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/integrate-demo\/public\/template\/public-list.html": {
+	"\/integrate\/public\/template\/public-list.html": {
 		"fileType": 8192,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/integrate-demo\/public\/template\/public-list.html",
+		"inputAbbreviatedPath": "\/integrate\/public\/template\/public-list.html",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/integrate-demo\/public\/template\/public-search.html": {
+	"\/integrate\/public\/template\/public-search.html": {
 		"fileType": 8192,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/integrate-demo\/public\/template\/public-search.html",
+		"inputAbbreviatedPath": "\/integrate\/public\/template\/public-search.html",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/integrate-demo\/reset.css": {
+	"\/integrate\/reset.css": {
 		"fileType": 16,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/integrate-demo\/reset.css",
+		"inputAbbreviatedPath": "\/integrate\/reset.css",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/integrate-demo\/server-api.md": {
+	"\/integrate\/server-api.md": {
 		"criticStyle": 0,
 		"enableFootnotes": 1,
 		"enableLabels": 1,
@@ -453,9 +533,9 @@
 		"fileType": 4096,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/integrate-demo\/server-api.md",
+		"inputAbbreviatedPath": "\/integrate\/server-api.md",
 		"maskEmailAddresses": 1,
-		"outputAbbreviatedPath": "\/integrate-demo\/server-api.html",
+		"outputAbbreviatedPath": "\/integrate\/server-api.html",
 		"outputFormat": 0,
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
@@ -465,43 +545,12 @@
 		"randomFootnoteNumbers": 0,
 		"useCompatibilityMode": 0
 		},
-	"\/integrate-guide.html": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/integrate-guide.html",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/js\/jquery-1.9.0.min.js": {
+	"\/js\/pre-check.js": {
 		"fileType": 64,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/js\/jquery-1.9.0.min.js",
-		"outputAbbreviatedPath": "\/js\/min\/jquery-1.9.0.min-min.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
-		},
-	"\/js\/RongCallLib.js": {
-		"fileType": 64,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/js\/RongCallLib.js",
-		"outputAbbreviatedPath": "\/js\/min\/RongCallLib-min.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
-		},
-	"\/js\/RongIMVoice-2.2.5.js": {
-		"fileType": 64,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/js\/RongIMVoice-2.2.5.js",
-		"outputAbbreviatedPath": "\/js\/min\/RongIMVoice-2.2.5-min.js",
+		"inputAbbreviatedPath": "\/js\/pre-check.js",
+		"outputAbbreviatedPath": "\/js\/min\/pre-check-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
@@ -518,45 +567,12 @@
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
-	"\/lib\/libamr-min-new.js": {
-		"fileType": 64,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/lib\/libamr-min-new.js",
-		"outputAbbreviatedPath": "\/lib\/min\/libamr-min-new-min.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
-		},
-	"\/lib\/pcmdata.min.js": {
-		"fileType": 64,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/lib\/pcmdata.min.js",
-		"outputAbbreviatedPath": "\/lib\/min\/pcmdata.min-min.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
-		},
 	"\/lib\/require.js": {
 		"fileType": 64,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/lib\/require.js",
 		"outputAbbreviatedPath": "\/lib\/min\/require-min.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
-		},
-	"\/lib\/swfobject-rongcloud-2.0.0.js": {
-		"fileType": 64,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/lib\/swfobject-rongcloud-2.0.0.js",
-		"outputAbbreviatedPath": "\/lib\/min\/swfobject-rongcloud-2.0.0-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
@@ -573,11 +589,61 @@
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
-	"\/res\/integrate.css": {
-		"fileType": 16,
+	"\/README.md": {
+		"criticStyle": 0,
+		"enableFootnotes": 1,
+		"enableLabels": 1,
+		"enableSmartQuotes": 1,
+		"escapeLineBreaks": 0,
+		"fileType": 4096,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/res\/integrate.css",
+		"inputAbbreviatedPath": "\/README.md",
+		"maskEmailAddresses": 1,
+		"outputAbbreviatedPath": "\/README.html",
+		"outputFormat": 0,
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"parseMetadata": 1,
+		"processHTML": 0,
+		"randomFootnoteNumbers": 0,
+		"useCompatibilityMode": 0
+		},
+	"\/require.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/require.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/res\/voice-amr-base64.json": {
+		"fileType": 524288,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/res\/voice-amr-base64.json",
+		"orderOutput": 0,
+		"outputAbbreviatedPath": "\/res\/voice-amr-base64-min.json",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1
+		},
+	"\/voice.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/voice.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/voip.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/voip.html",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
@@ -590,9 +656,9 @@
 	},
 "projectAttributes": {
 	"bowerAbbreviatedPath": "",
-	"displayValue": "integrate-guide",
+	"displayValue": "websdk-demo-master",
 	"displayValueWasSetByUser": 0,
-	"iconImageName": "pencil_blue"
+	"iconImageName": "compass_blue"
 	},
 "projectSettings": {
 	"alwaysUseExternalServer": 0,
