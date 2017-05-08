@@ -61,7 +61,7 @@ function renderConversationView(translatedConversations, instance) {
                     "nickname": "产品",
                     "region": "86",
                     "phone": "13269772701",
-                    "portraitUri": "http://img.duoziwang.com/2016/12/08/18594927932.jpg"
+                    "portraitUri": "//rongcloud-image.ronghub.com/51a5244dfaa94aeaec.jpg?e=2147483647&token=livk5rb3__JZjCtEiMxXpQ8QscLxbNLehwhHySnX:PDdQkDGfSpprlI-GRlcCi9CWqUk="
                 },
                 conversationList: translatedConversations
             }

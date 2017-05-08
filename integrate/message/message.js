@@ -9,14 +9,14 @@ function renderHistoryMessages(list, hasMsg, instance) {
                     "nickname": "产品",
                     "region": "86",
                     "phone": "13269772701",
-                    "portraitUri": "http://img.duoziwang.com/2016/12/08/18594927932.jpg"
+                    "portraitUri": "//rongcloud-image.ronghub.com/51a5244dfaa94aeaec.jpg?e=2147483647&token=livk5rb3__JZjCtEiMxXpQ8QscLxbNLehwhHySnX:PDdQkDGfSpprlI-GRlcCi9CWqUk="
                 },
                 targetUserInfo: {
                     "id": "user2",
                     "nickname": "开发",
                     "region": "86",
                     "phone": "13269772702",
-                    "portraitUri": "http://www.tshseo.com/uploads/allimg/141012/21130U347-12.jpg"
+                    "portraitUri": "//rongcloud-image.ronghub.com/0980f3474f9d4dac5f.jpg?e=2147483647&token=CddrKW5AbOMQaDRwc3ReDNvo3-sL_SO1fSUBKV3H:TQHVqMbqImknpP8YI0OxDgFICto="
                 },
                 messageList: list,
                 sendMsgVal: ''
